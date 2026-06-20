@@ -1,8 +1,7 @@
 # 🌫️ Indian Urban Air Quality Intelligence System
-### ML-Powered Proxy AQI Prediction & Health Exposure Analytics | Streamlit Dashboard & Power BI
+### ML-Powered Proxy AQI Prediction & Health Exposure Analytics |
 
-![Python](https://img.shields.io/badge/Python-3.11-blue) ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4-orange) ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red) ![Power BI](https://img.shields.io/badge/Power%20BI-Report-yellow) ![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
-
+![Python](https://img.shields.io/badge/Python-3.11-blue) ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4-orange) !
 ---
 
 ## 📌 Project Overview
@@ -122,11 +121,4 @@ streamlit run app.py
 
 ---
 
-## 📝 Resume Bullet Points (Placement-Ready)
 
-> **Indian Urban Air Quality Intelligence System** | *Python, scikit-learn, Streamlit, Power BI*
-> * Designed and built a physically-grounded atmospheric simulation generating 10,000 records of meteorological data (wind dispersion, wet deposition, temperature-driven ozone photochemistry) for 24 Indian cities.
-> * Formulated a **Proxy Machine Learning Architecture** to predict AQI using only weather & traffic density metrics (achieving **$R^2 = 0.956$** via Gradient Boosting), avoiding target leakage inherent in chemical-based predictions.
-> * Implemented **GroupKFold cross-validation grouped by City** to eliminate spatial autocorrelation leakage, proving model generalization on unseen cities.
-> * Developed an **interactive Streamlit web dashboard** containing real-time pollutant predictors and model performance graphs, alongside a 5-page Power BI dashboard for executive reporting.
-> * Implemented automated software engineering practices including unit testing (`unittest`) for regulatory CPCB calculations and modular code structuring.
